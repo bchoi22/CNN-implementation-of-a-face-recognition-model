@@ -4,7 +4,6 @@ This is a simple face recognition model based upon a Keras implementation of CNN
 
 This model uses even less data (only 530 images of former President George W. Bush due to limited data) to train and have it rule out any other faces tested against it. Using the keras.preprocessing.image package, the data was organized such that it allows the ImageDataGenerator method to access our acquired data. Train, Validation, and Test directories were created with 2 subdirectories each; one called “bush,” and the other called “other.” To recognize a particular individual’s face by training the model using only the individual’s images in different scenarios using CNN.
 
-Data Set
 The data set used was pre-processed data collected from www.cs.umass.edu/lfw/. Labeled Faces in the Wild (LFW)is a public benchmark for face verification. The website hosted a rich set of celebrity and political figure image data. The data in total was:
 • 18,233 images (250 x 250-pixel data, .jpg files)
 • 5,749 people
